@@ -1,0 +1,49 @@
+#!/usr/bin/make -f
+
+DH_VERBOSE=1
+DH_GOPKG=github.com/containers/podman
+BUILDDIR := $(shell pwd)
+DESTDIR := $(BUILDDIR)/debian/tmp
+PREFIX := /usr
+BUILDTAGS += apparmor exclude_graphdriver_devicemapper seccomp systemd
+BUILD_INFO=$(shell date +%s)
+LDFLAGS=-X main.buildInfo=$(BUILD_INFO) -extldflags '-Wl,-z,relro -Wl,--as-needed -Wl,-z,now'
+GO_BINARY := /usr/lib/go-1.16/bin/go
+CGO_CFLAGS='-g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -ffat-lto-objects -fexceptions -fasynchronous-unwind-tables -fstack-protector-strong -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64'
+GO := GOPATH=$(BUILDDIR) GO111MODULE=off $(GO_BINARY)
+GO_BUILD := CGO_CFLAGS=$(CGO_CFLAGS) $(GO) build -buildmode pie -ldflags "$(LDFLAGS)"
+GO_GENERATE := CGO_CFLAGS=$(CGO_CFLAGS) $(GO) generate
+UPSTREAM_TAG=v3.4.2
+PODMAN_VERSION=$(shell echo $UPSTREAM_TAG | sed -e 's/v//')
+
+%:
+	dh_clean
+	rm -rf $(BUILDDIR)/src
+	dh $@ --buildsystem=golang --with=golang
+
+override_dh_auto_configure:
+	# Include vendored dependencies.
+	cp -rp $(BUILDDIR)/vendor $(BUILDDIR)/src
+	mkdir -p $(BUILDDIR)/src/github.com/containers
+	ln -s $(BUILDDIR) $(BUILDDIR)/src/$(DH_GOPKG)
+	rm -f $(BUILDDIR)/docs/source/markdown/containers-mounts.conf.5.md
+
+override_dh_auto_build:
+	$(GO_BUILD) -tags '$(BUILDTAGS)' -o bin/podman $(DH_GOPKG)/cmd/podman
+	$(GO_BUILD) -tags '$(BUILDTAGS) exclude_graphdriver_btrfs btrfs_noversion remote' -o bin/podman-remote $(DH_GOPKG)/cmd/podman
+	make docs
+	rm -rf $(BUILDDIR)/obj-*-linux-gnu
+
+override_dh_auto_test:
+
+override_dh_auto_install:
+	# install.bin and install.remote
+	PODMAN_VERSION=$(PODMAN_VERSION) make DESTDIR=$(DESTDIR) PREFIX=$(PREFIX) \
+		install.bin-nobuild \
+		install.remote-nobuild \
+		install.man-nobuild \
+		install.systemd \
+		install.completions
+
+override_dh_golang:
+

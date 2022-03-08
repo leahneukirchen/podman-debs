@@ -1,0 +1,1922 @@
+podman (100:3.4.2-1) stable; urgency=medium
+
+  * bump to v3.4.2
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 18 Nov 2021 13:14:47 -0500
+
+podman (100:3.4.0-1) stable; urgency=medium
+
+  * bump to v3.4.0
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 05 Oct 2021 11:41:45 -0400
+
+podman (100:3.3.1-1) stable; urgency=medium
+
+  * bump to v3.3.1
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 14 Sep 2021 08:54:34 -0400
+
+podman (100:3.3.0-1) stable; urgency=medium
+
+  * bump to v3.3.0
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 26 Aug 2021 10:37:23 -0400
+
+podman (100:3.2.3-3) stable; urgency=medium
+
+  * use containers-common >= 100:1-20 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 12 Aug 2021 09:52:15 -0400
+
+podman (100:3.2.3-2) stable; urgency=medium
+
+  * Resolves: CVE-2021-34558 
+  * Build with golang >= 1.16.6 (from Kubic repo)
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 11 Aug 2021 10:52:39 -0400
+
+podman (100:3.2.3-1) stable; urgency=medium
+
+  * bump to v3.2.3
+  * Resolves: CVE-2021-3602
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 20 Jul 2021 13:55:21 -0400
+
+podman (100:3.2.2-1) stable; urgency=medium
+
+  * bump to v3.2.2
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 28 Jun 2021 09:16:34 -0400
+
+podman (100:3.2.1-1) stable; urgency=medium
+
+  * bump to v3.2.1
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 16 Jun 2021 13:54:59 -0400
+
+podman (100:3.2.0-1.rc3) testing; urgency=medium
+
+  * bump to v3.2.0-rc3
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 26 May 2021 14:35:24 -0400
+
+podman (100:3.1.2-1) stable; urgency=medium
+
+  * bump to v3.1.2
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 22 Apr 2021 20:08:27 +0000
+
+podman (100:3.1.1-1) stable; urgency=medium
+
+  * bump to v3.1.1 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 20 Apr 2021 18:51:17 +0000
+
+podman (100:3.1.0-3) testing; urgency=medium
+
+  * bump to v3.1.0
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 30 Mar 2021 13:32:26 +0000
+
+podman (100:3.1.0-2.rc2) testing; urgency=medium
+
+  * bump to v3.1.0-rc2
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Fri, 26 Mar 2021 18:32:26 +0000
+
+podman (100:3.1.0-1.rc1) testing; urgency=medium
+
+  * bump to v3.1.0-rc1
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 09 Mar 2021 18:21:01 +0000
+
+podman (100:3.0.1-2) stable; urgency=medium
+
+  * depend on containers-common >= 100:1-12 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 22 Feb 2021 14:25:28 +0000
+
+podman (100:3.0.1-1) stable; urgency=medium
+
+  * bump to v3.0.1
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Fri, 19 Feb 2021 20:24:39 +0000
+
+podman (100:3.0.0-4) stable; urgency=medium
+
+  * podman-plugins depends on dnsmasq-base instead of dnsmasq 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 17 Feb 2021 10:50:51 +0000
+
+podman (100:3.0.0-3) stable; urgency=medium
+
+  * update deps on podman-plugins and containers-common 
+  * Upstream github issues: #9390, #9359, #9345
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 16 Feb 2021 20:37:36 +0000
+
+podman (100:3.0.0-2) stable; urgency=medium
+
+  * update min containers-common dep
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 16 Feb 2021 19:37:34 +0000
+
+podman (100:3.0.0-1) stable; urgency=medium
+
+  * bump to v3.0.0
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Fri, 12 Feb 2021 13:54:33 +0000
+
+podman (100:3.0.0-0.12.rc3) testing; urgency=medium
+
+  * bump release tag to reference CVE in previous entry
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 10 Feb 2021 15:50:46 +0000
+
+podman (100:3.0.0-0.11.rc3) testing; urgency=medium
+
+  * bump to v3.0.0-rc3
+  * Resolves: CVE-2021-20206
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 10 Feb 2021 08:15:32 -0500
+
+podman (100:3.0.0-0.10.rc2) testing; urgency=medium
+
+  * change version-release format
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 03 Feb 2021 18:57:10 +0000
+
+podman (100:3.0.0~0.9.rc2) testing; urgency=medium
+
+  * bump epoch to override distro packages
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 02 Feb 2021 20:06:27 +0000
+
+podman (3.0.0~0.8.rc2) stable; urgency=medium
+
+  * update min containers-common dep 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 01 Feb 2021 19:35:12 +0000
+
+podman (3.0.0~0.7.rc2) stable; urgency=medium
+
+  * build rc2
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 01 Feb 2021 14:52:49 +0000
+
+podman (3.0.0~0.6.rc1) testing; urgency=medium
+
+  * use crun instead of oci-runtime 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 01 Feb 2021 13:21:37 +0000
+
+podman (3.0.0~0.5.rc1) testing; urgency=medium
+
+  * get rid of runc requirement 
+  * use crun and oci-runtime (meta-provides of crun)
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 28 Jan 2021 14:47:04 +0000
+
+podman (3.0.0~0.4.rc1) stable; urgency=medium
+
+  * update min dep for containers-common 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 26 Jan 2021 16:03:47 +0000
+
+podman (3.0.0~0.3.rc1) testing; urgency=medium
+
+  * recommend fuse-overlayfs
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 25 Jan 2021 20:29:11 +0000
+
+podman (3.0.0~0.2.rc1) testing; urgency=medium
+
+  * bump min containers-common dep
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 25 Jan 2021 19:00:22 +0000
+
+podman (3.0.0~0.1.rc1) testing; urgency=medium
+
+  * depend on standalone containers-common package
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 25 Jan 2021 15:35:28 +0000
+
+podman (3.0.0~0.rc1) testing; urgency=medium
+
+  * bump to v3.0.0-rc1
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 19 Jan 2021 18:43:25 +0000
+
+podman (2.2.1~4) stable; urgency=medium
+
+  * do not enforce libseccomp version while building 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 09 Dec 2020 12:54:20 -0500
+
+podman (2.2.1~3) stable; urgency=medium
+
+  * use libseccomp2 >= 2.4.3-1 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 09 Dec 2020 11:22:49 -0500
+
+podman (2.2.1~2) stable; urgency=medium
+
+  * prefer cri-o-runc as distro default runc is too old 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 08 Dec 2020 14:37:35 -0500
+
+podman (2.2.1~1) stable; urgency=medium
+
+  * bump to v2.2.1
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 08 Dec 2020 10:13:20 -0500
+
+podman (2.2.0~9) stable; urgency=medium
+
+  * make all distros happy
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 08 Dec 2020 08:41:55 -0500
+
+podman (2.2.0~8) stable; urgency=medium
+
+  * use /etc/issue for checking distro version 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 07 Dec 2020 16:58:00 -0500
+
+podman (2.2.0~7) stable; urgency=medium
+
+  * needs lsb-release for checking os version 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 07 Dec 2020 16:13:54 -0500
+
+podman (2.2.0~6) stable; urgency=medium
+
+  * handle gcc flags correctly for ubuntu 18.04 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 07 Dec 2020 15:59:51 -0500
+
+podman (2.2.0~5) stable; urgency=medium
+
+  * -fcf-protection is x86_64 only 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 07 Dec 2020 15:17:37 -0500
+
+podman (2.2.0~4) stable; urgency=medium
+
+  * -m64 CGO_CFLAGS not recognized by non-x86_64 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 07 Dec 2020 15:01:10 -0500
+
+podman (2.2.0~3) stable; urgency=medium
+
+  * harden cgo based binaries 
+  * Reported-by: Wade Mealing <wmealing@gmail.com>
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 07 Dec 2020 14:32:01 -0500
+
+podman (2.2.0~2) stable; urgency=medium
+
+  * use podman-plugins >= 1.1.1~1
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 01 Dec 2020 11:28:27 -0500
+
+podman (2.2.0~1) stable; urgency=medium
+
+  * autobuilt v2.2.0
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Tue, 01 Dec 2020 02:30:39 +0000
+
+podman (2.2.0~0.1+nmu2) testing; urgency=medium
+
+  * autobuilt v2.2.0-rc2
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Tue, 24 Nov 2020 12:30:51 +0000
+
+podman (2.2.0~0.1+nmu1) testing; urgency=medium
+
+  * Non-maintainer upload.
+  * autobuilt v2.2.0-rc1
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Fri, 20 Nov 2020 20:14:05 +0000
+
+podman (2.2.0~0.1) testing; urgency=medium
+
+  * bump to v2.2.0-rc1
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 19 Nov 2020 15:26:19 -0500
+
+podman (2.1.1~1) stable; urgency=medium
+
+  * autobuilt v2.1.1
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Fri, 25 Sep 2020 21:06:57 +0000
+
+podman (2.1.0~1+nmu1) stable; urgency=medium
+
+  * Non-maintainer upload.
+  * autobuilt v2.1.0
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Fri, 25 Sep 2020 20:01:25 +0000
+
+podman (2.1.0~1) stable; urgency=medium
+
+  * bump to v2.1.0
+  * fixes CVE-2020-14370
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 22 Sep 2020 17:06:12 -0400
+
+podman (2.0.6~2+nmu1) stable; urgency=medium
+
+  * Non-maintainer upload.
+  * autobuilt v2.0.6
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Wed, 09 Sep 2020 17:06:19 +0000
+
+podman (2.0.6~2) stable; urgency=medium
+
+  * install unitfiles 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 08 Sep 2020 18:55:12 +0000
+
+podman (2.0.6~1) stable; urgency=medium
+
+  * bump to v2.0.6
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 01 Sep 2020 18:56:31 +0000
+
+podman (2.0.5~3) stable; urgency=medium
+
+  * go back to preferring runc over cri-o-runc 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 01 Sep 2020 15:07:21 +0000
+
+podman (2.0.5~2) stable; urgency=medium
+
+  * prefer cri-o-runc
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Fri, 28 Aug 2020 17:44:55 +0000
+
+podman (2.0.5~1) stable; urgency=medium
+
+  * autobuilt v2.0.5
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Fri, 31 Jul 2020 21:06:43 +0000
+
+podman (2.0.3~1) stable; urgency=medium
+
+  * autobuilt v2.0.3
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Thu, 23 Jul 2020 18:24:54 +0000
+
+podman (2.0.2~2) stable; urgency=medium
+
+  * include varlink stuff back 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Fri, 10 Jul 2020 17:25:17 +0000
+
+podman (2.0.2~1) stable; urgency=medium
+
+  * bump to v2.0.2
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 07 Jul 2020 19:29:08 +0000
+
+podman (2.0.1~7) stable; urgency=medium
+
+  * adjust buildtags 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 07 Jul 2020 18:20:10 +0000
+
+podman (2.0.1~6) stable; urgency=medium
+
+  * use $GO_BUILD correctly 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 07 Jul 2020 17:03:16 +0000
+
+podman (2.0.1~5) stable; urgency=medium
+
+  * use dh-golang >> 1.47 
+  * remove dependency on varlink
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 07 Jul 2020 15:30:09 +0000
+
+podman (2.0.1~4) stable; urgency=medium
+
+  * use dh-golang >= 1.48
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 07 Jul 2020 15:04:35 +0000
+
+podman (2.0.1~3) stable; urgency=medium
+
+  * use correct path for golang binary 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 07 Jul 2020 14:31:24 +0000
+
+podman (2.0.1~2) stable; urgency=medium
+
+  * prefer golang-1.14 if available, and golang otherwise 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 06 Jul 2020 18:02:35 +0000
+
+podman (2.0.1~1) stable; urgency=medium
+
+  * bump to v2.0.1
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Fri, 26 Jun 2020 18:22:12 +0000
+
+podman (2.0.0~1) stable; urgency=medium
+
+  * bump to v2.0.0
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 22 Jun 2020 12:51:27 +0000
+
+podman (1.9.3~1) stable; urgency=medium
+
+  * bump to v1.9.3
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 25 May 2020 12:41:49 +0000
+
+podman (1.9.2~3) stable; urgency=medium
+
+  * remove libpod.conf and depend on containers-common >= 1.0.0~2 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 21 May 2020 18:02:45 +0000
+
+podman (1.9.2~2) stable; urgency=medium
+
+  * update min dep specification in control file
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 18 May 2020 20:58:18 +0000
+
+podman (1.9.2~1) stable; urgency=medium
+
+  * built v1.9.2 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sat, 16 May 2020 19:32:37 +0000
+
+podman (1.9.1~1) stable; urgency=medium
+
+  * built v1.9.1 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Fri, 01 May 2020 14:11:41 +0000
+
+podman (1.9.0~3) testing; urgency=medium
+
+  * autobuilt v1.9.0
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Wed, 15 Apr 2020 16:07:31 +0000
+
+podman (1.9.0~2) testing; urgency=medium
+
+  * autobuilt v1.9.0-rc2
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Tue, 14 Apr 2020 18:07:07 +0000
+
+podman (1.9.0~1) testing; urgency=medium
+
+  * autobuilt v1.9.0-rc1
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Mon, 13 Apr 2020 15:07:09 +0000
+
+podman (1.8.2~2) testing; urgency=medium
+
+  * autobuilt v1.8.2
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Thu, 19 Mar 2020 21:11:26 +0000
+
+podman (1.8.2~1) testing; urgency=medium
+
+  * autobuilt v1.8.2-rc1
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Wed, 18 Mar 2020 15:11:47 +0000
+
+podman (1.8.1~3+nmu3) testing; urgency=medium
+
+  * autobuilt v1.8.1
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Wed, 11 Mar 2020 17:11:37 +0000
+
+podman (1.8.1~3+nmu2) testing; urgency=medium
+
+  * autobuilt v1.8.1-rc4
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Tue, 10 Mar 2020 14:11:19 +0000
+
+podman (1.8.1~3+nmu1) testing; urgency=medium
+
+  * Non-maintainer upload.
+  * autobuilt v1.8.1-rc3
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Fri, 06 Mar 2020 23:10:56 +0000
+
+podman (1.8.1~3) testing; urgency=medium
+
+  * create podman-rootless subpackage
+  * rootless subpackage doesn't depend on containernetworking-plugins
+  * conflicts with podman
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Fri, 06 Mar 2020 15:30:42 +0000
+
+podman (1.8.1~2) testing; urgency=medium
+
+  * autobuilt v1.8.1-rc2
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Sun, 01 Mar 2020 20:32:31 +0000
+
+podman (1.8.1~1) testing; urgency=medium
+
+  * autobuilt v1.8.1-rc1
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Wed, 26 Feb 2020 16:46:32 +0000
+
+podman (1.8.0~7) stable; urgency=medium
+
+  * require catatonit and podman-plugins
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 20 Feb 2020 18:56:26 +0000
+
+podman (1.8.0~6) stable; urgency=medium
+
+  * hard require containernetowrking-plugins
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 20 Feb 2020 11:23:41 -0500
+
+podman (1.8.0~5) stable; urgency=medium
+
+  * make libbtrfs-dev the default
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 20 Feb 2020 00:04:19 +0000
+
+podman (1.8.0~4) stable; urgency=medium
+
+  * build-depend on cpio 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 19 Feb 2020 23:11:51 +0000
+
+podman (1.8.0~3) stable; urgency=medium
+
+  * enable btrfs support 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 19 Feb 2020 18:58:23 +0000
+
+podman (1.8.0~2) testing; urgency=medium
+
+  * bump release tag
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 10 Feb 2020 08:54:46 -0500
+
+podman (1.8.0~1) testing; urgency=medium
+
+  * autobuilt v1.8.0
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Fri, 07 Feb 2020 23:19:03 +0000
+
+podman (1.8.0~1) testing; urgency=medium
+
+  * autobuilt v1.8.0-rc1
+
+ -- RH Container Bot <rhcontainerbot@fedoraproject.org>  Fri, 31 Jan 2020 19:10:19 +0000
+
+podman (1.7.0~6) stable; urgency=medium
+
+  * depend on iptables 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Fri, 31 Jan 2020 09:58:41 -0500
+
+podman (1.7.0~5) stable; urgency=medium
+
+  * use containers-common >= 0.1.40-9 
+  * use containers-image >= 5.1.0~2 for correct registries.conf setup
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 28 Jan 2020 09:44:06 -0500
+
+podman (1.7.0~4) stable; urgency=medium
+
+  * do not install docker manpages 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 27 Jan 2020 14:08:34 -0500
+
+podman (1.7.0~3) stable; urgency=medium
+
+  * recommend varlink dep 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 23 Jan 2020 11:12:27 +0530
+
+podman (1.7.0~2) stable; urgency=medium
+
+  * disable dh_auto_configure for armv7l success
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 22 Jan 2020 19:51:39 +0530
+
+podman (1.7.0~1) stable; urgency=medium
+
+  * bump to v1.7.0
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 16 Jan 2020 13:03:24 +0000
+
+podman (1.6.4~2) stable; urgency=medium
+
+  * use seccomp buildtag 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 23 Dec 2019 18:04:40 +0000
+
+podman (1.6.4~1) stable; urgency=medium
+
+  * bump to v1.6.4 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 11 Dec 2019 23:24:00 +0000
+
+podman (1.6.3~15) stable; urgency=medium
+
+  * create TMPFILESDIR dir 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 05 Dec 2019 13:59:36 +0000
+
+podman (1.6.3~14) stable; urgency=medium
+
+  * rebuild 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 21 Nov 2019 03:53:55 +0000
+
+podman (1.6.3~13) stable; urgency=medium
+
+  * rebuild 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 21 Nov 2019 03:23:48 +0000
+
+podman (1.6.3~12) stable; urgency=medium
+
+  * rebuild 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 21 Nov 2019 02:39:49 +0000
+
+podman (1.6.3~11) stable; urgency=medium
+
+  * rebuild 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 20 Nov 2019 19:53:11 +0000
+
+podman (1.6.3~10) stable; urgency=medium
+
+  * rebuild 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 20 Nov 2019 19:40:48 +0000
+
+podman (1.6.3~9) stable; urgency=medium
+
+  * rebuild 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 20 Nov 2019 18:43:55 +0000
+
+podman (1.6.3~8) stable; urgency=medium
+
+  * rebuild 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 20 Nov 2019 17:55:30 +0000
+
+podman (1.6.3~7) stable; urgency=medium
+
+  * rebuild 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 20 Nov 2019 17:28:45 +0000
+
+podman (1.6.3~6) stable; urgency=medium
+
+  * update GO_BUILD def 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 20 Nov 2019 17:05:24 +0000
+
+podman (1.6.3~5) stable; urgency=medium
+
+  * rebuild 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 20 Nov 2019 16:44:20 +0000
+
+podman (1.6.3~4) stable; urgency=medium
+
+  * correct golang binary location 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 20 Nov 2019 15:27:08 +0000
+
+podman (1.6.3~3) stable; urgency=medium
+
+  * rebuild on OBS 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 20 Nov 2019 14:27:49 +0000
+
+podman (1.6.3~2ubuntu1) stable; urgency=medium
+
+  * make changelog more generic 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 17 Nov 2019 21:47:30 +0000
+
+podman (1.6.3~1) stable; urgency=medium
+
+  * bump to v1.6.3
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sat, 09 Nov 2019 20:48:43 +0000
+
+podman (1.6.1-1~ubuntu19.04~ppa3) disco; urgency=medium
+
+  * autobuilt v1.6.1
+
+ -- RH Container Bot <rh.container.bot@gmail.com>  Wed, 09 Oct 2019 11:10:28 +0000
+
+podman (1.6.1-1~ubuntu19.04~ppa2) disco; urgency=medium
+
+  * autobuilt v1.6.1
+
+ -- RH Container Bot <rh.container.bot@gmail.com>  Wed, 09 Oct 2019 10:56:02 +0000
+
+podman (1.6.1-1~ubuntu19.04~ppa1) disco; urgency=medium
+
+  * bump to v1.6.1
+
+ -- RH Container Bot <rh.container.bot@gmail.com>  Mon, 07 Oct 2019 14:27:24 +0000
+
+podman (1.5.1-1~ubuntu19.04~ppa1) disco; urgency=medium
+
+  * bump to v1.5.1
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 04 Sep 2019 00:16:36 +0000
+
+podman (1.5.0-2~ubuntu19.04~ppa7) disco; urgency=medium
+
+  * install podman-remote, enable varlink 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 19 Aug 2019 14:32:42 +0000
+
+podman (1.5.0-2~ubuntu19.04~ppa6) disco; urgency=medium
+
+  * rebuild
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 12 Aug 2019 18:42:06 +0000
+
+podman (1.5.0-2~ubuntu19.04~ppa5) disco; urgency=medium
+
+  * rebuild
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 12 Aug 2019 18:33:07 +0000
+
+podman (1.5.0-2~ubuntu19.04~ppa4) disco; urgency=medium
+
+  * don't install seccomp.json 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 12 Aug 2019 18:22:59 +0000
+
+podman (1.5.0-2~ubuntu19.04~ppa3) disco; urgency=medium
+
+  * rebuild
+
+ -- Lokesh Mandvekar <lsm5-bot@7487a80043b9>  Sun, 11 Aug 2019 19:44:51 +0000
+
+podman (1.5.0-1~ubuntu19.04~ppa2) disco; urgency=medium
+
+  * rebuild 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 11 Aug 2019 18:39:45 +0000
+
+podman (1.5.0-1~ubuntu19.04~ppa1) disco; urgency=medium
+
+  * bump to v1.5.0
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 11 Aug 2019 17:51:53 +0000
+
+podman (1.5.0-1~ubuntu19.04~ppa1) disco; urgency=medium
+
+  * bump to v1.5.0
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 10 Aug 2019 20:47:12 +0000
+
+podman (1.4.4-2~ubuntu19.04~ppa4) disco; urgency=medium
+
+  * correct install-time deps 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 28 Jul 2019 20:56:37 +0000
+
+podman (1.4.4-2~ubuntu19.04~ppa3) disco; urgency=medium
+
+  * build dep on libbtrfs-dev
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 28 Jul 2019 15:03:08 +0000
+
+podman (1.4.4-2~ubuntu19.04~ppa2) disco; urgency=medium
+
+  * build correctly for disco
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 28 Jul 2019 14:31:59 +0000
+
+podman (1.4.4-1~git591ed25~ubuntu18.04~ppa1) bionic; urgency=medium
+
+  * bump to 1.4.4
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 27 Jul 2019 21:45:42 +0000
+
+podman (1.3.2-1~dev~ubuntu18.04~ppa15) bionic; urgency=medium
+
+  * autobuilt c871653
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 30 May 2019 15:50:23 +0000
+
+podman (1.3.2-1~dev~ubuntu18.04~ppa14) bionic; urgency=medium
+
+  * autobuilt 294448c
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 29 May 2019 15:56:27 +0000
+
+podman (1.3.2-1~dev~ubuntu18.04~ppa13) bionic; urgency=medium
+
+  * autobuilt c9357f0
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 29 May 2019 15:50:34 +0000
+
+podman (1.3.2-1~dev~ubuntu18.04~ppa12) bionic; urgency=medium
+
+  * autobuilt bc7afd6
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 28 May 2019 15:48:30 +0000
+
+podman (1.3.2-1~dev~ubuntu18.04~ppa11) bionic; urgency=medium
+
+  * autobuilt 25f8c21
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 26 May 2019 15:48:08 +0000
+
+podman (1.3.2-1~dev~ubuntu18.04~ppa10) bionic; urgency=medium
+
+  * autobuilt b1d590b
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 25 May 2019 15:47:40 +0000
+
+podman (1.3.2-1~dev~ubuntu18.04~ppa9) bionic; urgency=medium
+
+  * autobuilt 1ac06d8
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 24 May 2019 15:46:47 +0000
+
+podman (1.3.2-1~dev~ubuntu18.04~ppa8) bionic; urgency=medium
+
+  * autobuilt 579fd01
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 23 May 2019 15:46:27 +0000
+
+podman (1.3.2-1~dev~ubuntu18.04~ppa7) bionic; urgency=medium
+
+  * autobuilt e0376b9
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 22 May 2019 15:46:17 +0000
+
+podman (1.3.2-1~dev~ubuntu18.04~ppa6) bionic; urgency=medium
+
+  * autobuilt e6277b1
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 21 May 2019 15:46:56 +0000
+
+podman (1.3.2-1~dev~ubuntu18.04~ppa5) bionic; urgency=medium
+
+  * no podman-remote yet
+  * builds work
+  * autobuilt 8d54329
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 20 May 2019 17:13:44 +0000
+
+podman (1.3.2-1~dev~ubuntu18.04~ppa4) bionic; urgency=medium
+
+  * autobuilt 8d54329
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 20 May 2019 15:44:40 +0000
+
+podman (1.3.2-1~dev~ubuntu18.04~ppa3) bionic; urgency=medium
+
+  * autobuilt ce84c3a
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 19 May 2019 15:44:11 +0000
+
+podman (1.3.2-1~dev~ubuntu18.04~ppa2) bionic; urgency=medium
+
+  * autobuilt 00ecbfc
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 18 May 2019 15:43:13 +0000
+
+podman (1.3.2-1~dev~ubuntu18.04~ppa1) bionic; urgency=medium
+
+  * bump to 1.3.2, autobuilt 07b87b1
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 17 May 2019 15:42:49 +0000
+
+podman (1.3.1-1~dev~ubuntu18.04~ppa8) bionic; urgency=medium
+
+  * autobuilt ff70b60
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 16 May 2019 15:38:31 +0000
+
+podman (1.3.1-1~dev~ubuntu18.04~ppa7) bionic; urgency=medium
+
+  * autobuilt a261b60
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 14 May 2019 15:41:09 +0000
+
+podman (1.3.1-1~dev~ubuntu18.04~ppa6) bionic; urgency=medium
+
+  * autobuilt 2ded1f6
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 13 May 2019 15:40:31 +0000
+
+podman (1.3.1-1~dev~ubuntu18.04~ppa5) bionic; urgency=medium
+
+  * autobuilt 9ae3221
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 11 May 2019 15:39:54 +0000
+
+podman (1.3.1-1~dev~ubuntu18.04~ppa4) bionic; urgency=medium
+
+  * autobuilt d54a2d2
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 10 May 2019 15:38:53 +0000
+
+podman (1.3.1-1~dev~ubuntu18.04~ppa3) bionic; urgency=medium
+
+  * autobuilt d8a065d
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 09 May 2019 15:39:39 +0000
+
+podman (1.3.1-1~dev~ubuntu18.04~ppa2) bionic; urgency=medium
+
+  * autobuilt 83700a7
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 08 May 2019 15:38:20 +0000
+
+podman (1.3.1-1~dev~ubuntu18.04~ppa1) bionic; urgency=medium
+
+  * bump to 1.3.1, autobuilt 3b5ac18
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 07 May 2019 15:38:19 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa29) bionic; urgency=medium
+
+  * autobuilt a9fc570
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 06 May 2019 15:38:45 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa28) bionic; urgency=medium
+
+  * autobuilt 5db7b17
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 04 May 2019 15:36:41 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa27) bionic; urgency=medium
+
+  * autobuilt 0eaba2d
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 03 May 2019 15:36:05 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa26) bionic; urgency=medium
+
+  * autobuilt 8a1d7c2
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 02 May 2019 15:36:29 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa25) bionic; urgency=medium
+
+  * autobuilt ad68036
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 01 May 2019 15:35:24 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa24) bionic; urgency=medium
+
+  * autobuilt 488117c
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 30 Apr 2019 15:35:34 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa23) bionic; urgency=medium
+
+  * autobuilt 4e5b396
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 29 Apr 2019 15:34:39 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa22) bionic; urgency=medium
+
+  * autobuilt fe3acdd
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 27 Apr 2019 15:33:28 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa21) bionic; urgency=medium
+
+  * autobuilt 135c8be
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 26 Apr 2019 15:33:16 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa20) bionic; urgency=medium
+
+  * autobuilt 36f4790
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 25 Apr 2019 15:32:16 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa19) bionic; urgency=medium
+
+  * autobuilt d652c86
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 23 Apr 2019 15:30:59 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa18) bionic; urgency=medium
+
+  * autobuilt 9f92b21
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 19 Apr 2019 15:29:49 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa17) bionic; urgency=medium
+
+  * autobuilt 4d45f51
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 18 Apr 2019 15:29:39 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa16) bionic; urgency=medium
+
+  * autobuilt d0c5e21
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 17 Apr 2019 15:28:54 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa15) bionic; urgency=medium
+
+  * autobuilt a2e9626
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 16 Apr 2019 15:28:58 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa14) bionic; urgency=medium
+
+  * autobuilt 6f3f026
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 15 Apr 2019 15:28:03 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa13) bionic; urgency=medium
+
+  * autobuilt 167ce59
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 14 Apr 2019 15:27:10 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa12) bionic; urgency=medium
+
+  * autobuilt b926005
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 13 Apr 2019 15:26:44 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa11) bionic; urgency=medium
+
+  * autobuilt 6ddc67c
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 12 Apr 2019 15:26:49 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa10) bionic; urgency=medium
+
+  * autobuilt b281c34
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 11 Apr 2019 15:35:12 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa9) bionic; urgency=medium
+
+  * autobuilt 4596c39
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 11 Apr 2019 15:28:35 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa8) bionic; urgency=medium
+
+  * autobuilt 1701707
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 10 Apr 2019 15:26:16 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa7) bionic; urgency=medium
+
+  * autobuilt fe79bdd
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 09 Apr 2019 15:25:31 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa6) bionic; urgency=medium
+
+  * autobuilt 7f8e9bd
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 08 Apr 2019 15:24:16 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa5) bionic; urgency=medium
+
+  * autobuilt bc320be
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 05 Apr 2019 15:22:58 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa4) bionic; urgency=medium
+
+  * autobuilt 71555a9
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 04 Apr 2019 15:22:39 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa3) bionic; urgency=medium
+
+  * autobuilt 2ad5f5c
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 03 Apr 2019 15:22:21 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa2) bionic; urgency=medium
+
+  * autobuilt ad467ba
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 01 Apr 2019 15:22:13 +0000
+
+podman (1.3.0-1~dev~ubuntu18.04~ppa1) bionic; urgency=medium
+
+  * bump to 1.3.0, autobuilt 278c961
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 31 Mar 2019 15:20:53 +0000
+
+podman (1.2.0-1~dev~ubuntu18.04~ppa16) bionic; urgency=medium
+
+  * autobuilt 7b73974
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 30 Mar 2019 15:20:34 +0000
+
+podman (1.2.0-1~dev~ubuntu18.04~ppa15) bionic; urgency=medium
+
+  * autobuilt f4d90a9
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 29 Mar 2019 15:20:22 +0000
+
+podman (1.2.0-1~dev~ubuntu18.04~ppa14) bionic; urgency=medium
+
+  * autobuilt 9085898
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 28 Mar 2019 16:54:59 +0000
+
+podman (1.2.0-1~dev~ubuntu18.04~ppa13) bionic; urgency=medium
+
+  * autobuilt 340eeec
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 27 Mar 2019 19:44:24 +0000
+
+podman (1.2.0-1~dev~ubuntu18.04~ppa12) bionic; urgency=medium
+
+  * autobuilt fbabe55
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 27 Mar 2019 17:12:17 +0000
+
+podman (1.2.0-1~dev~ubuntu18.04~ppa11) bionic; urgency=medium
+
+  * autobuilt d0c6a35
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 24 Mar 2019 15:16:21 +0000
+
+podman (1.2.0-1~dev~ubuntu18.04~ppa10) bionic; urgency=medium
+
+  * autobuilt 0458daf
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 23 Mar 2019 15:16:08 +0000
+
+podman (1.2.0-1~dev~ubuntu18.04~ppa9) bionic; urgency=medium
+
+  * autobuilt 54b901f
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 22 Mar 2019 15:20:58 +0000
+
+podman (1.2.0-1~dev~ubuntu18.04~ppa8) bionic; urgency=medium
+
+  * autobuilt 68e3df3
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 21 Mar 2019 15:15:08 +0000
+
+podman (1.2.0-1~dev~ubuntu18.04~ppa7) bionic; urgency=medium
+
+  * autobuilt bae1561
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 20 Mar 2019 15:15:25 +0000
+
+podman (1.2.0-1~dev~ubuntu18.04~ppa6) bionic; urgency=medium
+
+  * autobuilt ac523cb
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 19 Mar 2019 15:14:37 +0000
+
+podman (1.2.0-1~dev~ubuntu18.04~ppa5) bionic; urgency=medium
+
+  * containers-common dep properly obsoletes skopeo-containers 
+  * autobuilt ea54a1c
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 18 Mar 2019 19:17:47 +0000
+
+podman (1.2.0-1~dev~ubuntu18.04~ppa4) bionic; urgency=medium
+
+  * depend on conmon >= 0-1
+  * autobuilt ea54a1c
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 18 Mar 2019 18:03:22 +0000
+
+podman (1.2.0-1~dev~ubuntu18.04~ppa3) bionic; urgency=medium
+
+  * autobuilt ea54a1c
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 18 Mar 2019 15:13:52 +0000
+
+podman (1.2.0-1~dev~ubuntu18.04~ppa2) bionic; urgency=medium
+
+  * seccomp.json moved to containers-golang 
+  * autobuilt 7f9fdbe
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 17 Mar 2019 18:35:27 +0000
+
+podman (1.2.0-1~dev~ubuntu18.04~ppa1) bionic; urgency=medium
+
+  * bump to v1.2.0
+  * autobuilt 5ae7359
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Fri, 08 Mar 2019 19:18:06 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa24) bionic; urgency=medium
+
+  * autobuilt df52dac
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 13 Feb 2019 14:58:16 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa23) bionic; urgency=medium
+
+  * autobuilt bdf537f
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 12 Feb 2019 14:57:49 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa22) bionic; urgency=medium
+
+  * autobuilt acf2e91
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 11 Feb 2019 14:56:23 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa21) bionic; urgency=medium
+
+  * autobuilt c86e8f1
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 09 Feb 2019 14:59:54 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa20) bionic; urgency=medium
+
+  * autobuilt 962850c
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 08 Feb 2019 14:55:23 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa19) bionic; urgency=medium
+
+  * autobuilt 01f436c
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 07 Feb 2019 14:54:41 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa18) bionic; urgency=medium
+
+  * autobuilt ca6ab20
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 06 Feb 2019 14:54:55 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa17) bionic; urgency=medium
+
+  * autobuilt b1d4dbd
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 05 Feb 2019 14:54:17 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa16) bionic; urgency=medium
+
+  * autobuilt d5593b8
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 03 Feb 2019 14:52:32 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa15) bionic; urgency=medium
+
+  * autobuilt e6426af
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 02 Feb 2019 14:52:11 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa14) bionic; urgency=medium
+
+  * autobuilt d98e482
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 01 Feb 2019 15:01:23 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa13) bionic; urgency=medium
+
+  * autobuilt e97dc8e
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 01 Feb 2019 14:55:45 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa12) bionic; urgency=medium
+
+  * autobuilt 805c6d9
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 31 Jan 2019 14:57:38 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa11) bionic; urgency=medium
+
+  * autobuilt b71088a
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 30 Jan 2019 14:49:47 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa10) bionic; urgency=medium
+
+  * autobuilt ebe9297
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 29 Jan 2019 14:50:47 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa9) bionic; urgency=medium
+
+  * autobuilt c9e1f36
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 24 Jan 2019 14:50:48 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa8) bionic; urgency=medium
+
+  * autobuilt 7838a13
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 22 Jan 2019 14:45:28 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa7) bionic; urgency=medium
+
+  * autobuilt ba35096
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 21 Jan 2019 14:45:29 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa6) bionic; urgency=medium
+
+  * autobuilt ef2f6f9
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 20 Jan 2019 14:45:41 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa5) bionic; urgency=medium
+
+  * autobuilt 0d4bfb0
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 19 Jan 2019 14:44:53 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa4) bionic; urgency=medium
+
+  * autobuilt e3dc660
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 18 Jan 2019 14:44:15 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa3) bionic; urgency=medium
+
+  * autobuilt 0e3264a
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 17 Jan 2019 14:43:53 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa2) bionic; urgency=medium
+
+  * autobuilt d868321
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 16 Jan 2019 14:42:57 +0000
+
+podman (1.0.1-1~dev~ubuntu18.04~ppa1) bionic; urgency=medium
+
+  * bump to 1.0.1, autobuilt 500fb2c
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 15 Jan 2019 14:41:56 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa26) bionic; urgency=medium
+
+  * autobuilt 264d082
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 14 Jan 2019 14:41:39 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa25) bionic; urgency=medium
+
+  * autobuilt f31fdb2
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 13 Jan 2019 14:41:11 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa24) bionic; urgency=medium
+
+  * autobuilt 5c86efb
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 12 Jan 2019 14:41:01 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa23) bionic; urgency=medium
+
+  * autobuilt 28c35ca
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 11 Jan 2019 14:40:26 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa22) bionic; urgency=medium
+
+  * autobuilt d196d9c
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 10 Jan 2019 14:39:31 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa21) bionic; urgency=medium
+
+  * autobuilt 5061081
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 09 Jan 2019 14:38:52 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa20) bionic; urgency=medium
+
+  * autobuilt 4f19f1a
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 08 Jan 2019 14:39:16 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa19) bionic; urgency=medium
+
+  * autobuilt a219431
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 07 Jan 2019 14:42:47 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa18) bionic; urgency=medium
+
+  * autobuilt ef29a30
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 07 Jan 2019 14:37:17 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa17) bionic; urgency=medium
+
+  * autobuilt 4e0c0ec
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 05 Jan 2019 14:36:39 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa16) bionic; urgency=medium
+
+  * autobuilt 9ffd480
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 04 Jan 2019 14:35:57 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa15) bionic; urgency=medium
+
+  * autobuilt 098c134
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 03 Jan 2019 14:35:48 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa14) bionic; urgency=medium
+
+  * autobuilt 7438b7b
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 01 Jan 2019 14:34:30 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa13) bionic; urgency=medium
+
+  * autobuilt 1aa55ed
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 29 Dec 2018 14:32:50 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa12) bionic; urgency=medium
+
+  * autobuilt c50332d
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 25 Dec 2018 14:30:23 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa11) bionic; urgency=medium
+
+  * autobuilt bbfe734
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 24 Dec 2018 14:29:33 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa10) bionic; urgency=medium
+
+  * autobuilt 792f109
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 22 Dec 2018 14:29:31 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa9) bionic; urgency=medium
+
+  * autobuilt faa7ff3
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 21 Dec 2018 14:28:55 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa8) bionic; urgency=medium
+
+  * autobuilt 2de6cad
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 20 Dec 2018 14:28:11 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa7) bionic; urgency=medium
+
+  * autobuilt c8eaf59
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 19 Dec 2018 14:27:34 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa6) bionic; urgency=medium
+
+  * autobuilt 68414c5
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 18 Dec 2018 14:27:13 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa5) bionic; urgency=medium
+
+  * autobuilt b21d474
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 17 Dec 2018 14:27:54 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa4) bionic; urgency=medium
+
+  * autobuilt c086118
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 15 Dec 2018 14:26:20 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa3) bionic; urgency=medium
+
+  * autobuilt 93b5ccf
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 14 Dec 2018 14:25:30 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa2) bionic; urgency=medium
+
+  * autobuilt 508388b
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 13 Dec 2018 14:24:30 +0000
+
+podman (0.12.2-2~dev~ubuntu18.04~ppa1) bionic; urgency=medium
+
+  * bump to v0.12.2, autobuilt 8a3361f
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 12 Dec 2018 09:08:16 -0500
+
+podman (0.11.2-2~dev~ubuntu18.04~ppa7) bionic; urgency=medium
+
+  * fix python3-setuptools dep
+  * autobuilt d3bc70d
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 28 Nov 2018 13:21:13 -0500
+
+podman (0.11.2-1~ubuntu18.04~ppa6) bionic; urgency=medium
+
+  * autobuilt d3bc70d
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 28 Nov 2018 18:14:37 +0000
+
+podman (0.11.2-1~ubuntu18.04~ppa5) bionic; urgency=medium
+
+  * autobuilt 1fdfeb8
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 21 Nov 2018 21:35:40 +0000
+
+podman (0.11.2-1~ubuntu18.04~ppa4) bionic; urgency=medium
+
+  * build-depends: python3-setuptools 
+  * autobuilt fed6b03
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 13 Nov 2018 09:41:58 -0500
+
+podman (0.11.2-1~ubuntu18.04~ppa3) bionic; urgency=medium
+
+  * autobuilt fed6b03
+  * do not package docker cli for now (trouble with dh_golang)
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 13 Nov 2018 08:47:00 -0500
+
+podman (0.11.2-1~ubuntu16.04.2~ppa2) xenial; urgency=medium
+
+  * autobuilt 7965716
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 13 Nov 2018 03:52:57 +0000
+
+podman (0.11.2-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * bump to 0.11.2, autobuilt 78e6d8e
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 11 Nov 2018 06:13:34 +0000
+
+podman (0.10.2-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * bump to v0.10.2
+  * built e106ccf
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 04 Nov 2018 23:01:23 -0500
+
+podman (0.9.3-1~ubuntu16.04.2~ppa2) xenial; urgency=medium
+
+  * rename upstream (projectatomic -> containers)
+  * autobuilt 5e4f7e9
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 16 Sep 2018 11:40:15 +0000
+
+podman (0.9.3-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * bump to v0.9.3
+  * autobuilt 5e4f7e9
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 16 Sep 2018 11:40:15 +0000
+
+podman (0.6.5-1~ubuntu16.04.2~ppa5) xenial; urgency=medium
+
+  * autobuilt fd12c89
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 28 Jun 2018 02:40:15 +0000
+
+podman (0.6.5-1~ubuntu16.04.2~ppa4) xenial; urgency=medium
+
+  * autobuilt 56133f7
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 27 Jun 2018 02:39:46 +0000
+
+podman (0.6.5-1~ubuntu16.04.2~ppa3) xenial; urgency=medium
+
+  * autobuilt 208b9a6
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 26 Jun 2018 02:39:08 +0000
+
+podman (0.6.5-1~ubuntu16.04.2~ppa2) xenial; urgency=medium
+
+  * autobuilt e89bbd6
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 25 Jun 2018 02:39:09 +0000
+
+podman (0.6.5-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * bump to 0.6.5, autobuilt 7182339
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 23 Jun 2018 02:37:56 +0000
+
+podman (0.6.4-1~ubuntu16.04.2~ppa9) xenial; urgency=medium
+
+  * autobuilt 4bd0f22
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 22 Jun 2018 02:36:58 +0000
+
+podman (0.6.4-1~ubuntu16.04.2~ppa8) xenial; urgency=medium
+
+  * autobuilt 6804fde
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 21 Jun 2018 02:36:17 +0000
+
+podman (0.6.4-1~ubuntu16.04.2~ppa7) xenial; urgency=medium
+
+  * autobuilt f228cf7
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 20 Jun 2018 03:07:55 +0000
+
+podman (0.6.4-1~ubuntu16.04.2~ppa6) xenial; urgency=medium
+
+  * update build steps
+  * no need for rsync
+  * autobuilt 7676cd4
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 19 Jun 2018 10:14:43 +0000
+
+podman (0.6.4-1~ubuntu16.04.2~ppa5) xenial; urgency=medium
+
+  * add golang dep
+  * autobuilt 7676cd4
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 19 Jun 2018 09:44:43 +0000
+
+podman (0.6.4-1~ubuntu16.04.2~ppa4) xenial; urgency=medium
+
+  * autobuilt 7676cd4
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 19 Jun 2018 08:54:43 +0000
+
+podman (0.6.4-1~ubuntu16.04.2~ppa3) xenial; urgency=medium
+
+  * autobuilt 5645789
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 19 Jun 2018 00:54:43 +0000
+
+podman (0.6.4-1~ubuntu16.04.2~ppa2) xenial; urgency=medium
+
+  * autobuilt 0f2ea23
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 19 Jun 2018 00:54:43 +0000
+
+podman (0.6.4-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * autobuilt 0f2ea23
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 18 Jun 2018 12:54:43 +0000
+
+podman (0.6.2-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * autobuilt 72c0b4f
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 11 Jun 2018 08:54:43 +0000
+
+podman (0.5.4-1~ubuntu16.04.2~ppa3) xenial; urgency=medium
+
+  * autobuilt ae7c459
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 22 May 2018 13:54:43 +0000
+
+podman (0.5.4-1~ubuntu16.04.2~ppa2) xenial; urgency=medium
+
+  * autobuilt 82feafe
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Mon, 21 May 2018 22:59:48 +0000
+
+podman (0.5.4-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * bump to v0.5.4
+  * autobuilt 9fe179b
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 21 May 2018 06:30:11 +0000
+
+podman (0.5.3-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * bump to v0.5.3
+  * ensure correct version is picked up
+  * autobuilt 3b02a13
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Fri, 18 May 2018 06:30:11 +0000
+
+podman (0.5.1-1~ubuntu16.04.2~ppa15) xenial; urgency=medium
+
+  * autobuilt 0613844
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 16 May 2018 06:30:11 +0000
+
+podman (0.5.1-1~ubuntu16.04.2~ppa14) xenial; urgency=medium
+
+  * autobuilt 45838b9
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 15 May 2018 06:30:08 +0000
+
+podman (0.5.1-1~ubuntu16.04.2~ppa13) xenial; urgency=medium
+
+  * autobuilt 07253fc
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 12 May 2018 06:28:10 +0000
+
+podman (0.5.1-1~ubuntu16.04.2~ppa12) xenial; urgency=medium
+
+  * autobuilt cc1bad8
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 11 May 2018 06:31:10 +0000
+
+podman (0.5.1-1~ubuntu16.04.2~ppa11) xenial; urgency=medium
+
+  * autobuilt 2526355
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 09 May 2018 06:26:57 +0000
+
+podman (0.5.1-1~ubuntu16.04.2~ppa10) xenial; urgency=medium
+
+  * autobuilt faa8c3e
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 08 May 2018 06:25:56 +0000
+
+podman (0.5.1-1~ubuntu16.04.2~ppa9) xenial; urgency=medium
+
+  * autobuilt fa4705c
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 06 May 2018 06:24:12 +0000
+
+podman (0.5.1-1~ubuntu16.04.2~ppa8) xenial; urgency=medium
+
+  * autobuilt bb0e754
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 05 May 2018 06:24:09 +0000
+
+podman (0.5.1-1~ubuntu16.04.2~ppa7) xenial; urgency=medium
+
+  * autobuilt 5ae940a
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 04 May 2018 06:23:52 +0000
+
+podman (0.5.1-1~ubuntu16.04.2~ppa6) xenial; urgency=medium
+
+  * autobuilt 64dc803
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 03 May 2018 06:23:50 +0000
+
+podman (0.5.1-1~ubuntu16.04.2~ppa5) xenial; urgency=medium
+
+  * autobuilt 970eaf0
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 02 May 2018 06:23:19 +0000
+
+podman (0.5.1-1~ubuntu16.04.2~ppa4) xenial; urgency=medium
+
+  * autobuilt 7a0a855
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 01 May 2018 06:23:24 +0000
+
+podman (0.5.1-1~ubuntu16.04.2~ppa3) xenial; urgency=medium
+
+  * autobuilt eda0fd7
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 29 Apr 2018 01:25:46 +0000
+
+podman (0.5.1-1~ubuntu16.04.2~ppa2) xenial; urgency=medium
+
+  * update build rules
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 29 Apr 2018 00:40:22 +0000
+
+podman (0.5.1-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * bump to 0.5.1, autobuilt eda0fd7
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 29 Apr 2018 00:40:22 +0000
+
+podman (0.4.4-1~ubuntu16.04.2~ppa2) xenial; urgency=medium
+
+  * autobuilt 39a7a77
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Fri, 27 Apr 2018 06:21:37 +0000
+
+podman (0.4.4-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * bump to 0.4.4, autobuilt d7d0e13
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 26 Apr 2018 15:28:28 +0000
+
+podman (0.4.3-1~ubuntu16.04.2~ppa8) xenial; urgency=medium
+
+  * autobuilt 58cb8f7
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 26 Apr 2018 06:20:26 +0000
+
+podman (0.4.3-1~ubuntu16.04.2~ppa7) xenial; urgency=medium
+
+  * autobuilt bef93de
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Wed, 25 Apr 2018 06:20:19 +0000
+
+podman (0.4.3-1~ubuntu16.04.2~ppa6) xenial; urgency=medium
+
+  * autobuilt 398133e
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 24 Apr 2018 19:50:13 +0000
+
+podman (0.4.3-1~ubuntu16.04.2~ppa5) xenial; urgency=medium
+
+  * autobuilt b77695d
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Tue, 24 Apr 2018 06:20:15 +0000
+
+podman (0.4.3-1~ubuntu16.04.2~ppa4) xenial; urgency=medium
+
+  * autobuilt cf1d884
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sun, 22 Apr 2018 06:18:46 +0000
+
+podman (0.4.3-1~ubuntu16.04.2~ppa3) xenial; urgency=medium
+
+  * autobuilt 9b457e3
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Sat, 21 Apr 2018 04:41:50 +0000
+
+podman (0.4.3-1~ubuntu16.04.2~ppa2) xenial; urgency=medium
+
+  * autobuilt cc7d1de
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 19 Apr 2018 06:17:41 +0000
+
+podman (0.4.3-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * bump to 0.4.3, autobuilt cc7d1de
+
+ -- Lokesh Mandvekar (Bot) <lsm5+bot@fedoraproject.org>  Thu, 19 Apr 2018 06:10:05 +0000
+
+podman (0.3.3-1~ubuntu16.04.2~ppa2) xenial; urgency=medium
+
+  * auto rebuild
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Fri, 23 Mar 2018 14:14:22 +0000
+
+podman (0.3.3-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * bump to 0.3.3
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Wed, 21 Mar 2018 15:10:44 +0000
+
+podman (0.2.3-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * build master branch (0.2.3-dev)
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 27 Feb 2018 12:32:58 +0000
+
+podman (0.2.2-1~ubuntu16.04.2~ppa2) xenial; urgency=medium
+
+  * update deps
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 27 Feb 2018 12:28:03 +0000
+
+podman (0.2.2-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * bump to v0.2.2
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 26 Feb 2018 20:40:11 +0000
+
+podman (0.2-4~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * disabled ppc64el in PPA cause no golang-1.8
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 12 Feb 2018 20:30:03 +0000
+
+podman (0.2-3~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * enable build for additional arches on PPA
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 12 Feb 2018 20:10:13 +0000
+
+podman (0.2-2~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * only build for amd64 
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 12 Feb 2018 19:51:00 +0000
+
+podman (0.2-1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * bump to v0.2
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 12 Feb 2018 19:27:30 +0000
+
+podman (0-0.1~ubuntu16.04.2~ppa1) xenial; urgency=medium
+
+  * initial build
+
+ -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Mon, 12 Feb 2018 09:06:49 -0400

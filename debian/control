@@ -1,0 +1,62 @@
+Source: podman
+Section: devel
+Priority: optional
+Maintainer: Lokesh Mandvekar <lsm5@fedoraproject.org>
+Build-Depends: debhelper (>=9),
+   cpio,
+   libassuan-dev,
+   libgpgme11-dev,
+   libseccomp-dev,
+   libsystemd-dev,
+   libbtrfs-dev | btrfs-progs,
+   dh-golang (>>1.47),
+   golang-1.16 (>>1.16.6),
+   golang,
+   libglib2.0-dev,
+   go-md2man,
+   git
+Standards-Version: 4.3.0
+Homepage: https://github.com/containers/podman.git
+Vcs-Git: https://gitlab.com/rhcontainerbot/podman.git
+
+Package: podman
+Architecture: any
+Depends: ${misc:Depends},
+    libseccomp2 (>=2.4.3-1),
+    libdevmapper1.02.1,
+    libgpgme11,
+    catatonit,
+    conmon (>=100:2.0.25~2),
+    containers-common (>=100:1-21),
+    dbus-user-session,
+    iptables,
+    podman-plugins (>=100:1.2.0-1),
+    podman-machine-cni (>=100:0.0.0-1),
+    crun (>=100:0.19.1-1)
+Recommends: slirp4netns (>=100:1.1.8-3),
+   containernetworking-plugins (>=100:1.0.0-1),
+   uidmap,
+   fuse-overlayfs,
+Conflicts: podman-rootless
+Description: Manage pods, containers and container images.
+
+Package: podman-rootless
+Architecture: any
+Depends: ${misc:Depends},
+    libseccomp2 (>=2.4.3-1),
+    libdevmapper1.02.1,
+    libgpgme11,
+    catatonit,
+    conmon (>=100:2.0.25-2),
+    containers-common (>=100:1-20),
+    dbus-user-session,
+    iptables,
+    podman-plugins (>=100:1.2.0-1),
+    podman-machine-cni (>=100:0.0.0-1),
+    crun (>=100:0.19.1-1)
+Recommends: slirp4netns (>=100:1.1.8-3),
+   uidmap,
+   fuse-overlayfs,
+Conflicts: podman
+Description: Manage pods, containers and container images without root
+
