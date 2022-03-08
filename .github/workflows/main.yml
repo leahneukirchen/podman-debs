@@ -1,0 +1,33 @@
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - uses: addnab/docker-run-action@v3
+        with:
+          image: ubuntu:focal
+          options: |
+            -v ${{ github.workspace }}/podman:/podman
+            -v ${{ github.workspace }}/debian:/podman/debian 
+            -v ${{ github.workspace }}/artifacts:/artifacts
+          run: |
+            step() { printf '::group::%s\n' "$1"; shift; echo "$@"; "$@"; printf '::endgroup::\n'; }
+            export DEBIAN_FRONTEND=noninteractive FORCE_UNSAFE_CONFIGURE=1
+            step "Update package list" apt-get update
+            step "Install packaging dependencies" apt-get install -yq dpkg-dev debhelper devscripts
+            cd /podman
+            step "Install build dependencies" apt-get build-dep -yq .
+            step "Building package" dpkg-buildpackage
+            step "Package contents" debc
+            cp /*.deb /artifacts
+            
+      - uses: ncipollo/release-action@v1
+        if: startsWith(github.ref, 'refs/tags/v')
+        with:
+          artifacts: "artifacts/*"
+          token: ${{ secrets.GITHUB_TOKEN }}
