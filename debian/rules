@@ -13,8 +13,6 @@ CGO_CFLAGS='-g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_
 GO := GOPATH=$(BUILDDIR) GO111MODULE=off $(GO_BINARY)
 GO_BUILD := CGO_CFLAGS=$(CGO_CFLAGS) $(GO) build -buildmode pie -ldflags "$(LDFLAGS)"
 GO_GENERATE := CGO_CFLAGS=$(CGO_CFLAGS) $(GO) generate
-UPSTREAM_TAG=v3.4.2
-PODMAN_VERSION=$(shell echo $UPSTREAM_TAG | sed -e 's/v//')
 
 %:
 	dh_clean

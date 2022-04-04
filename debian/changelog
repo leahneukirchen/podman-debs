@@ -1,3 +1,9 @@
+podman (100:4.0.3-1) stable; urgency=medium
+
+  * bump to v4.0.3
+
+ -- Leah Neukirchen <leah@vuxu.org>  Mon, 04 Apr 2022 14:35:54 +0200
+
 podman (100:4.0.2-1) stable; urgency=medium
 
   * bump to v4.0.2
